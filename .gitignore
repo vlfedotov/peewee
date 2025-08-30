@@ -9,3 +9,7 @@ playhouse/tests/peewee_test.db
 MANIFEST
 peewee_test.db
 closure.so
+venv
+*.whl
+*.tar.gz
+peewee.egg-info/

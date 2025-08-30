@@ -121,7 +121,7 @@ PY3 = sys.version_info[0] == 3
 PY26 = sys.version_info[:2] == (2, 6)
 if PY3:
     import builtins
-    from collections import Callable
+    from collections.abc import Callable
     from functools import reduce
     callable = lambda c: isinstance(c, Callable)
     unicode_type = str

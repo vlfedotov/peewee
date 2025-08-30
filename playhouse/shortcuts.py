@@ -4,7 +4,7 @@ from peewee import *
 from peewee import Node
 
 if sys.version_info[0] == 3:
-    from collections import Callable
+    from collections.abc import Callable
     callable = lambda c: isinstance(c, Callable)
 
 
